@@ -115,12 +115,20 @@
           ],
           "sensors": [
             "temperature_sensor beacon_coil",
+            "tmc5160 stepper_x",
+            "tmc5160 stepper_x1",
+            "tmc5160 stepper_y",
+            "tmc5160 stepper_y1",
+            "tmc5160 stepper_z",
+            "tmc5160 stepper_z1",
+            "tmc5160 stepper_z2",
+            "tmc5160 stepper_z3",
             "temperature_sensor Heater_Core",
             "temperature_sensor raspberry_pi",
             "temperature_sensor Octopus_MCU",
             "temperature_sensor EBB36"
           ],
-          "timestamp": "2026-04-08T19:51:37Z"
+          "timestamp": "2026-04-08T20:00:40Z"
         },
         "optional": []
       },
