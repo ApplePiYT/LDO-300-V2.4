@@ -128,7 +128,7 @@
             "temperature_sensor Octopus_MCU",
             "temperature_sensor EBB36"
           ],
-          "timestamp": "2026-04-08T20:00:40Z"
+          "timestamp": "2026-04-16T16:35:56Z"
         },
         "optional": []
       },
@@ -149,6 +149,7 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
+        "last_white": null,
         "led_on_at_start": false,
         "macro_devices": [],
         "selected": [],
