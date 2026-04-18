@@ -1,7 +1,7 @@
 {
   "active_printer_id": "ldo-v2",
   "brightness": 100,
-  "config_version": 11,
+  "config_version": 12,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
