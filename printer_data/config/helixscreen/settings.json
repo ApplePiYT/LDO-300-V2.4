@@ -1,7 +1,7 @@
 {
   "active_printer_id": "ldo-v2",
   "brightness": 100,
-  "config_version": 12,
+  "config_version": 23,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -10,6 +10,8 @@
     "drm_device": "",
     "gcode_3d_enabled": true,
     "gcode_render_mode": 0,
+    "gpu_3d_blocked": false,
+    "gpu_blur_blocked": false,
     "rotate": 0,
     "sleep_sec": 600
   },
@@ -25,6 +27,7 @@
       "d": 0.0,
       "e": 1.0,
       "f": 0.0,
+      "recheck_pending": true,
       "valid": false
     },
     "jitter_threshold": 5,
@@ -33,9 +36,6 @@
     "touch_device": ""
   },
   "language": "en",
-  "led": {
-    "selected_strips": null
-  },
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 2
@@ -102,9 +102,7 @@
           "total_weight_g": 1000.0
         }
       },
-      "filament_sensors": {
-        "sensors": null
-      },
+      "filament_sensors": {},
       "hardware": {
         "expected": [
           "heater_bed",
@@ -164,14 +162,12 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
-        "last_white": null,
         "led_on_at_start": false,
         "macro_devices": [],
         "selected": [],
         "selected_strips": [
           "output_pin caselight"
         ],
-        "startup_brightness": null,
         "strip": "output_pin caselight"
       },
       "moonraker_api_key": false,
@@ -464,9 +460,7 @@
         }
       },
       "printer_image": "",
-      "probe_sensors": {
-        "sensors": null
-      },
+      "probe_sensors": {},
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
